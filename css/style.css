@@ -204,8 +204,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/img/main3.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/img/main3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/img/main1.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/img/main1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
