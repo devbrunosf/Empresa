@@ -66,8 +66,8 @@ header .container figure {
 header .container figure img {
   width: 110px;
   height: 100px;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 header .container p {
@@ -86,7 +86,7 @@ header .container p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   color: #fcd641;
@@ -204,8 +204,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/img/main1.webp");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/img/main1.webp");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/img/main3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/img/main3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
