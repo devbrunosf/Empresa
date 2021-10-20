@@ -545,8 +545,8 @@ main .container h1 span {
           flex-direction: column;
   position: relative;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("/main3.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/main3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url("/img/main3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/img/main3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -621,7 +621,7 @@ main .container h1 span {
   position: relative;
   top: 20px;
   left: 17px;
-  color: #000;
+  color: #fff;
   font-family: "baloo 2";
 }
 
@@ -676,7 +676,7 @@ main .container h1 span {
 }
 
 .step3 .container div .form input:focus ~ legend {
-  color: #000;
+  color: #eee;
   visibility: visible;
   top: 0px;
   left: 5px;
@@ -824,6 +824,20 @@ main .container h1 span {
 
 footer {
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fcd641cc;
 }
 /*# sourceMappingURL=style.css.map */

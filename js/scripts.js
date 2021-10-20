@@ -1,6 +1,6 @@
-// window.onload = function() {
-//     window.scroll(0, 0, 'smooth', behavior = 'smooth')
-// };
+window.onload = function() {
+    window.scroll(0, 0, 'smooth', behavior = 'smooth')
+};
 
 window.setTimeout(function() {
     // Primeia arrow (main) pula para o step1...

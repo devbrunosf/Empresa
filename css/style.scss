@@ -317,7 +317,7 @@ main {
     @include display-flex(column, center, center);
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/main3.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url("/img/main3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -353,7 +353,7 @@ main {
                     position: relative;
                     top: 20px;
                     left: 17px;
-                    color: #000;
+                    color: #fff;
                     font-family: "baloo 2";
                     span {
                         color: $red;
@@ -381,7 +381,7 @@ main {
                         transition: 0.4s;
                     }
                     &:focus ~ legend {
-                        color: #000;
+                        color: #eee;
                         visibility: visible;
                         top: 0px;
                         left: 5px;
@@ -472,5 +472,7 @@ main {
 }
 
 footer {
-    @include size(100vw, 100vh);
+    @include size(100vw, 20vh);
+    @include display-flex(column, center, center);
+    background-color: #fcd641cc;
 }
